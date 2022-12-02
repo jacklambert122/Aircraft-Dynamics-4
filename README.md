@@ -25,29 +25,33 @@ The derivations for the feedback control system about the lateral and longitudin
  $\sqrt{3x-1}+(1+x)^2$
 Deviation of $+5^{\circ}$  in Bank
 <p align="center">
+    Deviation of +5 (degrees) in Bank
     <!-- Deviation of $+5^{\circ}$ in Bank -->
     <br/>
     <img src="./Images/LBank.jpg" />
 </p>
-<!-- <br/>
+<br/>
 <p align="center">
-    Deviation of $+5^{\circ}$ in Pitch
+    Deviation of $+5 (degrees) in Pitch
+    <!-- Deviation of $+5^{\circ}$ in Pitch -->
     <br/>
     <img src="./Images/LPitch.jpg" />
 </p>
 <br/>
 <p align="center">
-    Deviation of +0.1 $\frac{rad}{s}$ in Roll Rate
+    Deviation of +0.1 (rad/s) in Roll Rate
+    <!-- Deviation of +0.1 $\frac{rad}{s}$ in Roll Rate -->
     <br/>
     <img src="./Images/LRollRate.jpg" />
 </p>
 <br/>
 <p align="center">
-    Deviation of $+0.1 [\frac{rad}{s}]$ in Pitch Rate
+    Deviation of $+0.1 (rad/s) in Pitch Rate
+    <!-- Deviation of $+0.1 [\frac{rad}{s}]$ in Pitch Rate -->
     <br/>
     <img src="./Images/LPitchRate.jpg" />
 </p>
-<br /> -->
+<br />
 
 The linearized response of the quad copter reacts in the way we expect for the different deviations in the attitude and rotation. The coupled sets in the linearized model remained coupled after the feedback controls were implemented. This is shown in the figures for the linearized model as the variations in the bank angle resulted in changes in the roll rate and in the y-component of the body fixed coordinate representation of inertial velocity. When the roll rate was varied, changes in bank angle and y-component of the body fixed coordinate representation of inertial velocity were seen. This is due to these three variables ($V_E$, $\phi$, and p) being coupled as the "lateral set" in the linearized model for a steady hover state. The other coupled set, the "longitudinal set", also remain coupled. This can be depicted in the plots for the variations in either $\theta$ or $q$, resulting in changes in the resulting coupled variables of $\theta$, q, and $U_E$. The resulting system is also noticed to now be neutrally stable. Deviations in the attitude and rotational nature of the body frame, result in a feedback response until the perturbations are resolved back to a steady hovering state. The reason they are only neutrally stable and not completely stable is due to the fact that the quad copter continues to translate after the attitude and rotation are resolved back to their trim states for steady hovering flight. 
 
@@ -55,21 +59,25 @@ The linearized response of the quad copter reacts in the way we expect for the d
 ## Simulated - Linearized and Non-Linearized Response Comparison:
 <br/>
 <p align="center">
-    Deviation of $+5^{\circ}$ in Bank
+    Deviation of $+5 (degrees) in Bank
+    <!-- Deviation of $+5^{\circ}$ in Bank -->
     <br/> 
     <img src="./Images/BothBank.jpg" />
     <br/> 
-    Deviation of $+0.1 [\frac{rad}{s}]$ in Pitch
+    Deviation of $+0.1 (rad/s) in Pitch
+    <!-- Deviation of $+0.1 [\frac{rad}{s}]$ in Pitch -->
     <br/>
     <img src="./Images/BothPitch.jpg" />
 </p>
 <br/>
 <p align="center">
-    Deviation of $+0.1 [\frac{rad}{s}]$ in Roll Rate
+    Deviation of $+0.1 (rad/s) in Roll Rate
+    <!-- Deviation of $+0.1 [\frac{rad}{s}]$ in Roll Rate -->
     <br/>
     <img src="./Images/BothRollRate.jpg" />
     <br/> 
-    Deviation of $+0.1 [\frac{rad}{s}]$ in Pitch Rate
+    Deviation of $+0.1 (rad/s) in Pitch Rate
+    <!-- Deviation of $+0.1 [\frac{rad}{s}]$ in Pitch Rate -->
     <br/>
     <img src="./Images/BothPitchRate.jpg" />
 </p>
