@@ -22,6 +22,7 @@ The derivations for the feedback control system about the lateral and longitudin
 
 ## Simulated - Closed Loop Linearized Response
 <br/>
+ $\sqrt{3x-1}+(1+x)^2$
 Deviation of $+5^{\circ}$  in Bank
 <p align="center">
     <!-- Deviation of $+5^{\circ}$ in Bank -->
