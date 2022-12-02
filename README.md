@@ -47,7 +47,7 @@ The linearized response of the quad copter reacts in the way we expect for the d
 ## Simulated - Linearized and Non-Linearized Response Comparison:
 
 <p align="center">
-    Deviation of $+5^{\circ}$ in Bank
+    Deviation of  in Bank
     <br/> 
     <img src="./Images/BothBank.jpg" />
     <br/> 
