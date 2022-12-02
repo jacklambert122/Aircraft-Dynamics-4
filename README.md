@@ -22,7 +22,7 @@ The derivations for the feedback control system about the lateral and longitudin
 
 ## Simulated - Closed Loop Linearized Response
 <br/>
-Deviation of $+5^{\circ}$ in Bank
+Deviation of $+5^{\circ}$  in Bank
 <p align="center">
     <!-- Deviation of $+5^{\circ}$ in Bank -->
     <br/>
