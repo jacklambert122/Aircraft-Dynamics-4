@@ -26,15 +26,18 @@ The derivations for the feedback control system about the lateral and longitudin
     Deviation of $+5^{\circ}$ in Bank
     <br/>
     <img src="./Images/LBank.jpg" />
-    <br/> 
+</p>
+<p align="center">
     Deviation of $+5^{\circ}$ in Pitch
     <br/>
     <img src="./Images/LPitch.jpg" />
-    <br/>
+</p>
+<p align="center">
     Deviation of +0.1 $\frac{rad}{s}$ in Roll Rate
     <br/>
     <img src="./Images/LRollRate.jpg" />
-    <br/> 
+</p>
+<p align="center">
     Deviation of $+0.1 [\frac{rad}{s}]$ in Pitch Rate
     <br/>
     <img src="./Images/LPitchRate.jpg" />
@@ -69,7 +72,7 @@ The linearized response of the quad copter reacts in the way we expect for the d
 When implementing the linearized feedback control design to the non-linear model, there were very slight differences in response. While all the state variables remained with in the linearized model's result, there were slight variations in the nosiness of the state variables. Granted the largest variation between the linearized and non-linearized response  for any of the state variables was on the order of magnitude of $10^{-3}$, there were still small variations. These small variations most likely occur due to the coupled nature of the variables as they change, causing small changes in each other on a scale that the precision of ODE45 cannot account for. It should also be noted that even though the linearized model does not directly account for aerodynamic effects, the results show to be nearly unaffected. 
 
 ## Rolling Spider Experimental Data w/ Implemented Gains:
-<br/><br/>
+<br/>
 <p align="center">
     Translation of Rolling Spider
     <br/> 
