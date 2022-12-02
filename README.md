@@ -26,15 +26,15 @@ The derivations for the feedback control system about the lateral and longitudin
     Deviation of $+5^{\circ}$ in Bank
     <br/>
     <img src="./Images/LBank.jpg" />
-    <br/> <br/>
+    <br/> 
     Deviation of $+5^{\circ}$ in Pitch
     <br/>
     <img src="./Images/LPitch.jpg" />
-    <br/> <br/>
+    <br/>
     Deviation of +0.1 $\frac{rad}{s}$ in Roll Rate
     <br/>
     <img src="./Images/LRollRate.jpg" />
-    <br/> <br/>
+    <br/> 
     Deviation of $+0.1 [\frac{rad}{s}]$ in Pitch Rate
     <br/>
     <img src="./Images/LPitchRate.jpg" />
@@ -50,15 +50,15 @@ The linearized response of the quad copter reacts in the way we expect for the d
     Deviation of $+5^{\circ}$ in Bank
     <br/> 
     <img src="./Images/BothBank.jpg" />
-    <br/> <br/>
+    <br/> 
     Deviation of $+0.1 [\frac{rad}{s}]$ in Pitch
     <br/>
     <img src="./Images/BothPitch.jpg" />
-    <br/> <br/>
+    <br/> 
     Deviation of $+0.1 [\frac{rad}{s}]$ in Roll Rate
     <br/>
     <img src="./Images/BothRollRate.jpg" />
-    <br/> <br/>
+    <br/> 
     Deviation of $+0.1 [\frac{rad}{s}]$ in Pitch Rate
     <br/>
     <img src="./Images/BothPitchRate.jpg" />
