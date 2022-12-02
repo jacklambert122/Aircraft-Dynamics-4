@@ -22,8 +22,6 @@ The derivations for the feedback control system about the lateral and longitudin
 
 ## Simulated - Closed Loop Linearized Response
 <br/>
- $\sqrt{3x-1}+(1+x)^2$
-Deviation of $+5^{\circ}$  in Bank
 <p align="center">
     Deviation of +5 (degrees) in Bank
     <!-- Deviation of $+5^{\circ}$ in Bank -->
@@ -61,8 +59,11 @@ The linearized response of the quad copter reacts in the way we expect for the d
 <p align="center">
     Deviation of $+5 (degrees) in Bank
     <!-- Deviation of $+5^{\circ}$ in Bank -->
-    <br/> 
+    <br/>
     <img src="./Images/BothBank.jpg" />
+</p>
+<br/>
+<p align="center">
     <br/> 
     Deviation of $+0.1 (rad/s) in Pitch
     <!-- Deviation of $+0.1 [\frac{rad}{s}]$ in Pitch -->
@@ -75,7 +76,9 @@ The linearized response of the quad copter reacts in the way we expect for the d
     <!-- Deviation of $+0.1 [\frac{rad}{s}]$ in Roll Rate -->
     <br/>
     <img src="./Images/BothRollRate.jpg" />
-    <br/> 
+</p>
+<br/>
+<p align="center">
     Deviation of $+0.1 (rad/s) in Pitch Rate
     <!-- Deviation of $+0.1 [\frac{rad}{s}]$ in Pitch Rate -->
     <br/>
